@@ -16,7 +16,7 @@ export default function Login() {
             Click here to see users
           </a>
         </p>
-        <Link to={'/public'}>Go Home</Link>
+        <Link to={'/'}>Go Home</Link>
         <h1>Sign In</h1>
         <form>
           <label htmlFor='username'>User email</label>
