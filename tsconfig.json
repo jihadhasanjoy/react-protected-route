@@ -27,7 +27,8 @@
       "@components/*": ["src/components/*"],
       "@screens/*": ["src/screens/*"],
       "@styles/*": ["src/styles/*"],
-      "@assets/*": ["src/assets/*"]
+      "@assets/*": ["src/assets/*"],
+      "@context/*": ["src/context/*"]
     }
   },
   "include": ["vite.config.ts", "**/*.ts", "**/*.tsx"],
