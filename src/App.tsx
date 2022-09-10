@@ -11,12 +11,12 @@ export default function App() {
     <Routes>
       <Route path='/' element={<Layout />}>
         {/* protective route */}
-        <Route path='/' element={<Home />} />
         <Route path='/admin' element={<Admin />} />
         <Route path='/users' element={<Users />} />
         <Route path='/editor' element={<Editor />} />
 
         {/* Public route */}
+        <Route path='/' element={<Home />} />
         <Route path='/public' element={<Public />} />
       </Route>
     </Routes>

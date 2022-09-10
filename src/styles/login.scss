@@ -1,0 +1,31 @@
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  .selection {
+    max-width: 600px;
+    min-width: 400px;
+    max-height: 400px;
+    background-color: gray;
+    color: white;
+    padding: 40px;
+    form {
+      display: flex;
+      flex-direction: column;
+      > * {
+        margin-bottom: 10px;
+        padding: 6px;
+      }
+    }
+    button {
+      padding: 6px;
+      display: flex;
+      justify-content: center;
+      min-width: 100px;
+      width: 50%;
+      margin: auto;
+      cursor: pointer;
+    }
+  }
+}

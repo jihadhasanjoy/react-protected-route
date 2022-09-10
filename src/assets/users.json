@@ -1,0 +1,14 @@
+[
+  {
+    "email": "admin",
+    "roles": ["admin"]
+  },
+  {
+    "email": "editor",
+    "roles": ["editor"]
+  },
+  {
+    "email": "views",
+    "roles": ["views"]
+  }
+]
